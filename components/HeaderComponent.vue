@@ -3,8 +3,8 @@
     class="h-16 py-4 bg-gray-800 text-white flex justify-between items-center"
   >
     <div class="flex flex-row mx-2 items-center">
-      <p class="text-xl flex mr-2">Fire Experts</p>
-      <img src="~static/flame icon.png" class="w-8" />
+      <p class="text-xl flex mr-4">Fire Experts</p>
+      <img src="~static/flame icon.png" class="w-6" />
     </div>
     <div>
       <img
