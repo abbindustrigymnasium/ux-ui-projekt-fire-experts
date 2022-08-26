@@ -1,7 +1,7 @@
 <template>
   <div
     class="
-      h-16
+      h-20
       py-4
       px-2
       bg-gray-800
