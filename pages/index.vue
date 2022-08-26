@@ -1,8 +1,6 @@
 <template>
-  <div>
-    <p>Hej</p>
-    <Tutorial />
-  </div>
+  <div>hej</div>
+  <Tutorial />
 </template>
 
 <script>
