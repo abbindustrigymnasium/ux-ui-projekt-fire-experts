@@ -11,18 +11,17 @@
       items-center
     "
   >
-    <div class="flex flex-row mx-2 items-center">
-      <p class="text-xl flex mr-4">Fire Experts</p>
+    <nuxt-link to="/" class="flex flex-row mx-2 items-center">
+      <p class="text-2xl flex mr-4">Fire Experts</p>
       <img src="~static/flame icon.png" class="w-6" />
-    </div>
+    </nuxt-link>
     <div class="flex flex-row mx-2 items-center">
-      <img
-        src="~static/shopping-cart-icon-png-transparent-28.jpg"
-        class="w-8 mx-3 filter invert"
-      />
+      <nuxt-link to="/cart" class="w-8 mx-4 filter invert cursor-pointer">
+        <img src="~static/shopping-cart-icon-png-transparent-28.jpg" alt="" />
+      </nuxt-link>
       <img
         src="~static/profile-png-icon-1.jpg"
-        class="w-8 mx-3 filter invert"
+        class="w-8 mx-4 filter invert"
       />
     </div>
   </div>
