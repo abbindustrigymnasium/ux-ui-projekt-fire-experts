@@ -18,8 +18,8 @@
       <p class="hover:underline cursor-pointer">Våran databas</p>
       <p class="hover:underline cursor-pointer">Ännu en länk</p>
     </div>
-    <div>
-      <img src="~static/flame icon.png" class="w-20 items-center" />
+    <div class="h-max flex align-center">
+      <img src="~static/flame icon.png" class="w-20 self-center" />
     </div>
     <div class="flex flex-row mx-2 items-center">
       <a href="https://mobile.twitter.com/abbgymnasiet">
