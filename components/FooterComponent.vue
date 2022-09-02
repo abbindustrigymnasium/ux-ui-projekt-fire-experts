@@ -2,21 +2,22 @@
   <div
     class="
       h-10
-      md:h-28
+      md:h-44
       py-4
       px-2
       bg-gray-800
       text-white
       flex
       justify-between
-      items-center
-      mb-5
+      mt-5
     "
   >
-    <nuxt-link to="/" class="flex flex-row mx-2 items-center">
-      <p class="text-lg md:text-2xl flex mr-4">Fire Experts</p>
-      <img src="~static/flame icon.png" class="w-6" />
-    </nuxt-link>
+    <div class="ml-4 px-2 flex flex-col justify-evenly text-md md:text-lg">
+      <p>Om oss</p>
+      <p>Kontakta oss</p>
+      <p>Våran databas</p>
+      <p>Ännu en länk</p>
+    </div>
     <div class="flex flex-row mx-2 items-center">
       <nuxt-link to="/cart" class="w-8 mx-4 filter invert cursor-pointer">
         <img src="~static/shopping-cart-icon-png-transparent-28.jpg" alt="" />

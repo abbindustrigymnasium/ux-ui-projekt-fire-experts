@@ -1,7 +1,6 @@
 <template>
   <div>
     <div>hej</div>
-    <Tutorial></Tutorial>
     <HighlightComponent/>
   </div>
 </template>
