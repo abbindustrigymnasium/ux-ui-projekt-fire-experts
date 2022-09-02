@@ -13,19 +13,45 @@
     "
   >
     <div class="ml-4 px-2 flex flex-col justify-evenly text-md md:text-lg">
-      <p>Om oss</p>
-      <p>Kontakta oss</p>
-      <p>Våran databas</p>
-      <p>Ännu en länk</p>
+      <p class="hover:underline cursor-pointer">Om oss</p>
+      <p class="hover:underline cursor-pointer">Kontakta oss</p>
+      <p class="hover:underline cursor-pointer">Våran databas</p>
+      <p class="hover:underline cursor-pointer">Ännu en länk</p>
+    </div>
+    <div>
+      <img src="~static/flame icon.png" class="w-20 items-center" />
     </div>
     <div class="flex flex-row mx-2 items-center">
-      <nuxt-link to="/cart" class="w-8 mx-4 filter invert cursor-pointer">
-        <img src="~static/shopping-cart-icon-png-transparent-28.jpg" alt="" />
-      </nuxt-link>
-      <img
-        src="~static/profile-png-icon-1.jpg"
-        class="w-8 mx-4 filter invert"
-      />
+      <a href="https://mobile.twitter.com/abbgymnasiet">
+        <img
+          src="~static/twitter logo.png"
+          class="
+            w-10
+            mx-4
+            transform
+            transition
+            duration-200
+            ease-in-out
+            hover:scale-110
+          "
+        />
+      </a>
+      <a href="https://sv-se.facebook.com/abbgymnasiet">
+        <img
+          src="~static/facebook logo.png"
+          alt=""
+          class="
+            w-12
+            mx-4
+            filter
+            invert
+            transform
+            transition
+            duration-200
+            ease-in-out
+            hover:scale-110
+          "
+      /></a>
     </div>
   </div>
 </template>
