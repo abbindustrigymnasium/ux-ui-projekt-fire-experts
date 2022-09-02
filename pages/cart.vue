@@ -1,1 +1,5 @@
-<template></template>
+<template>
+    <div>
+        <CartComp></CartComp>
+    </div>
+</template>
