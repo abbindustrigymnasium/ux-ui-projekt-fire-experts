@@ -24,10 +24,13 @@
       <div>
         back to top
       </div>
-    </div>
-    <div class="flex flex-row mx-2 items-center">
-      <a href="https://mobile.twitter.com/abbgymnasiet">
-        <img src="~static/twitter logo.png" class="
+      <div class="h-max flex align-center">
+        <img src="~static/flame icon.png" class="w-20 self-center" />
+
+      </div>
+      <div class="flex flex-row mx-2 items-center">
+        <a href="https://mobile.twitter.com/abbgymnasiet">
+          <img src="~static/twitter logo.png" class="
             w-10
             mx-4
             transform
@@ -36,9 +39,9 @@
             ease-in-out
             hover:scale-110
           " />
-      </a>
-      <a href="https://sv-se.facebook.com/abbgymnasiet">
-        <img src="~static/facebook logo.png" alt="" class="
+        </a>
+        <a href="https://sv-se.facebook.com/abbgymnasiet">
+          <img src="~static/facebook logo.png" alt="" class="
             w-12
             mx-4
             filter
@@ -49,6 +52,6 @@
             ease-in-out
             hover:scale-110
           " /></a>
+      </div>
     </div>
-  </div>
 </template>
