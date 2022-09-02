@@ -21,10 +21,12 @@
       <nuxt-link to="/cart" class="w-8 mx-4 filter invert cursor-pointer">
         <img src="~static/shopping-cart-icon-png-transparent-28.jpg" alt="" />
       </nuxt-link>
+      <nuxt-link to="/profile">
       <img
         src="~static/profile-png-icon-1.jpg"
         class="w-8 mx-4 filter invert"
       />
+    </nuxt-link>
     </div>
   </div>
 </template>
