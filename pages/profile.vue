@@ -1,5 +1,5 @@
 <template>
     <div>
-        <CartComp></CartComp>
+        <ProfileComp></ProfileComp>
     </div>
 </template>
