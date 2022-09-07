@@ -1,6 +1,5 @@
 <template>
   <div>
-    <HighlightComponent/>
     <p v-if="$fetchState.pending">Loading....</p>
     <p v-else-if="$fetchState.error">Error while fetching mountains</p>
     <ul v-else>
