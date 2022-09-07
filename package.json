@@ -6,7 +6,8 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "start-server": "json-server --port 5000 --watch db.json"
   },
   "dependencies": {
     "axios": "^0.27.2",
