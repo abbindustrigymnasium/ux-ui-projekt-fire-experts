@@ -1,41 +1,26 @@
 <template>
-        <ul> 
-          <li v-for="user in users" :key="user.id">{{user.name}} </li>
-        </ul> 
-        
-    <!-- <HighlightComponent/> -->
-       
-        
-  
-  
+  <div>
+    <HighlightComponent/>
+    <p v-if="$fetchState.pending">Loading....</p>
+    <p v-else-if="$fetchState.error">Error while fetching mountains</p>
+    <ul v-else>
+      <li v-for="(mountain, index) in mountains" :key="index">
+        {{ mountain.title }}
+      </li>
+    </ul>
+  </div>
 </template>
-
 <script>
-  
-import { async } from 'q'
-// import HighlightComponent from '../components/HighlightComponent.vue'
-export default {
-    name: "IndexPage",
-    //  components: { HighlightComponent },
-    async asyncData({$axios}){
-      try {
-        let users = await $axios.$get(
-          "https://jsonplaceholder.typicode.com/users"
-        );
-        return {users};
-      } catch(error) {
-        console.log(error);
+  export default {
+    data() {
+      return {
+        mountains: []
       }
     },
-    data(){
-      return {
-        users: [],
-      };
-
-      },
-    };
-
-
-
-
+    async fetch() {
+      this.mountains = await fetch(
+        'https://api.nuxtjs.dev/mountains'
+      ).then(res => res.json())
+    }
+  }
 </script>
