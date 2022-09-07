@@ -1,10 +1,14 @@
 <template>
   <div>
+    <!-- <div>
+      <p>{{ book.title }} av {{ book.author }}</p>
+    </div> -->
     <p v-if="$fetchState.pending">Loading....</p>
-    <p v-else-if="$fetchState.error">Error while fetching mountains</p>
+    <p v-else-if="$fetchState.error">Error while fetching books</p>
     <ul v-else>
-      <li v-for="(mountain, index) in mountains" :key="index">
-        {{ mountain.title }}
+      <li></li>
+      <li v-for="(book, index) in books" :key="index">
+        {{ book.title }} || {{ book.id }}
       </li>
     </ul>
   </div>
@@ -13,12 +17,12 @@
 export default {
   data () {
     return {
-      mountains: []
+      books: []
     }
   },
   async fetch () {
-    this.mountains = await fetch(
-      'https://api.nuxtjs.dev/mountains'
+    this.books = await fetch(
+      'http://localhost:5000/books'
     ).then(res => res.json())
   }
 }
