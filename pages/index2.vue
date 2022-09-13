@@ -16,9 +16,9 @@
         mountains: []
       }
     },
-    async fetch() {
-      this.mountains = await fetch(
-        'https://api.nuxtjs.dev/mountains'
+     async fetch() {
+      this.books = await fetch(
+        'http://localhost:5000/books'
       ).then(res => res.json())
     }
   }
