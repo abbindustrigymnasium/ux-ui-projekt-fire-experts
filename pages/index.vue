@@ -2,10 +2,10 @@
   <div>
     <HighlightComponent/>
     <p v-if="$fetchState.pending">Loading....</p>
-    <p v-else-if="$fetchState.error">Error while fetching mountains</p>
+    <p v-else-if="$fetchState.error">Error...</p>
     <ul v-else>
-      <li v-for="(mountain, index) in mountains" :key="index">
-        {{ mountain.title }}
+      <li v-for="(book, index) in books" :key="index">
+        {{ book.title }}
       </li>
     </ul>
   </div>
@@ -14,12 +14,12 @@
   export default {
     data() {
       return {
-        mountains: []
+        books: []
       }
     },
     async fetch() {
-      this.mountains = await fetch(
-        'https://api.nuxtjs.dev/mountains'
+      this.books = await fetch(
+        'https://api.nuxtjs.dev/books'
       ).then(res => res.json())
     }
   }
