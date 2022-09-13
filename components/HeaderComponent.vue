@@ -1,7 +1,7 @@
 <template>
   <div
     class="
-      h-10
+      h-20
       md:h-28
       py-4
       px-2
