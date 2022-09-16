@@ -1,5 +1,5 @@
 <template>
-  <div class="h-44 py-4 px-2 bg-gray-800 text-white flex justify-between mt-5">
+  <div class="h-32 py-4 px-2 bg-gray-800 text-white flex justify-between mt-5">
     <div class="ml-4 px-2 flex flex-col justify-evenly text-md md:text-lg">
       <p class="hover:underline cursor-pointer">Om oss</p>
       <p class="hover:underline cursor-pointer">Kontakta oss</p>

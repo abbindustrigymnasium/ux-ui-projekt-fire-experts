@@ -1,8 +1,8 @@
 <template>
   <div
     class="
-      h-20
-      md:h-28
+      h-14
+      md:h-24
       py-4
       px-2
       bg-gray-800

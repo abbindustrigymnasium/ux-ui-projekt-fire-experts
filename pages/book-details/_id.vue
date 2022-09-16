@@ -35,6 +35,7 @@
           px-5
           py-4
           mr-5
+          mt-2
           bg-gray-800
           w-36
           rounded-xl
