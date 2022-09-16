@@ -52,7 +52,7 @@
 }
 
 .flexbox-item {
-width: 200px;
+width: 400px;
 margin: 10px;
 background-color: #424242; 
 height: 90px;
