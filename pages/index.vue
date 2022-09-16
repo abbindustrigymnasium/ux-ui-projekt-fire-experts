@@ -1,13 +1,14 @@
 <template>
   <div>
-    <HighlightComponent/>
-    <p v-if="$fetchState.pending">Loading....</p>
+    <!-- <HighlightComponent/> -->
+    <Futured/>
+    <!-- <p v-if="$fetchState.pending">Loading....</p>
     <p v-else-if="$fetchState.error">Error...</p>
     <ul v-else>
       <li v-for="(book, index) in books" :key="index">
         {{ book.title }}
       </li>
-    </ul>
+    </ul> -->
   </div>
 </template>
 <script>
